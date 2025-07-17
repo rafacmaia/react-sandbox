@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box; /* UDEMY */
+    margin: 0; /* UDEMY */
+    /*outline: 1px solid rgba(255, 0, 0, 0.6);*/
+    padding: 0; /* Erase for Udemy */
+}
+
+/*!* FOR UDEMY COURSE*/
+
+:root {
+    background-image: radial-gradient(ellipse at bottom right, #7f50e4, #ff99cc, #ffffff);
+    font-family: Inter, Avenir, Helvetica, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    font-weight: 400;
+    line-height: 24px;
+    min-height: 100vh;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+}
+
+/*body {*/
+/*    text-align: center;*/
+/*    color: #e6ddf9;*/
+/*}*/
+
+body {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 320px;
+    place-items: center;
+    width: 100%;
+}
+
+#root {
+    width: 100%;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1.1;
+    margin-bottom: 2.5rem;
+}
+
+em, .ingredient {
+    font-style: normal;
+    font-weight: bold;
+}
+
+section {
+    border-bottom: solid 1px grey;
+    font-size: 1.5rem;
+    padding: 2.5rem 1rem;
+    width: 30%;
+}
+
+.ingredient {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.drink {
+    text-align: right;
+}
