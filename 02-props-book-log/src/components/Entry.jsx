@@ -1,10 +1,8 @@
 // noinspection JSValidateTypes
-
+import StarRating from './StarRating.jsx';
+import EntryText from './EntryText.jsx';
 import book from '../assets/book.svg';
 import goodreadsIcon from '../assets/goodreads.svg';
-import star from '../assets/star.svg';
-import halfStar from '../assets/half-star.svg';
-import emptyStar from '../assets/empty-star.svg';
 
 export default function Entry({
                                   cover,
@@ -16,18 +14,6 @@ export default function Entry({
                                   goodreads,
                                   thoughts
                               }) {
-    const stars = [];
-
-    while (rating >= 1) {
-        stars.push(<img src={star} alt="Star rating icon"/>);
-        rating--;
-    }
-    if (rating % 1 === 0.5) {
-        stars.push(<img src={halfStar} alt="Half-star rating icon"/>);
-    }
-    while (stars.length < 5) {
-        stars.push(<img src={emptyStar} alt="Empty star rating icon"/>);
-    }
 
     return (
         <article className="book-entry">
@@ -40,12 +26,12 @@ export default function Entry({
                     <span className="author">{author}, {year}</span>
                 </div>
                 <h2 className="title">{title}</h2>
-                <div className="rating">{stars}</div>
+                <StarRating rating={rating}/>
                 <span className="dates">{datesRead}</span>
                 <a href={goodreads} target="_blank">
                     <img className="goodreads" src={goodreadsIcon} alt="Goodreads icon"/>
                 </a>
-                <p className="thoughts">{thoughts}</p>
+                <EntryText thoughts={thoughts}/>
             </section>
         </article>
     );

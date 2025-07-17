@@ -7,7 +7,7 @@ Felice Picano
 Year:
 1995
 
-Rating:
+StarRating:
 ⭐⭐⭐⭐
 
 Goodreads Link:

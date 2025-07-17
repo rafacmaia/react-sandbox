@@ -9,7 +9,7 @@ import coverWarOnGaza from './assets/war-on-gaza.jpg';
 export default [
     {
         id: 1,
-        cover: {
+        coverImg: {
             src: coverLikePeopleInHistory,
             alt: 'Cover of Like People in History'
         },
@@ -23,7 +23,7 @@ export default [
     },
     {
         id: 2,
-        cover: {
+        coverImg: {
             src: coverIWhoHaveNeverKnownMen,
             alt: 'Cover of I Who have Never Known Men'
         },
@@ -37,7 +37,7 @@ export default [
     },
     {
         id: 3,
-        cover: {
+        coverImg: {
             src: coverChildrenOfDune,
             alt: 'Cover of Children of Dune'
         },
@@ -51,7 +51,7 @@ export default [
     },
     {
         id: 4,
-        cover: {
+        coverImg: {
             src: coverTheCureForDrowning,
             alt: 'Cover of The Cure for Drowning'
         },
@@ -65,7 +65,7 @@ export default [
     },
     {
         id: 5,
-        cover: {
+        coverImg: {
             src: coverKinkStories,
             alt: 'Cover of Kink: Stories'
         },
@@ -79,7 +79,7 @@ export default [
     },
     {
         id: 6,
-        cover: {
+        coverImg: {
             src: coverZami,
             alt: 'Cover of Zami'
         },
@@ -93,7 +93,7 @@ export default [
     },
     {
         id: 7,
-        cover: {
+        coverImg: {
             src: coverWarOnGaza,
             alt: 'Cover of War on Gaza'
         },

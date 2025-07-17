@@ -1,11 +1,12 @@
 import Header from './components/Header';
 import Entry from './components/Entry.jsx';
+import Footer from './components/Footer.jsx';
 import bookData from './bookData.js';
 
 export default function App() {
     const entryElements = bookData.map(book =>
         <Entry
-            cover={book.cover}
+            cover={book.coverImg}
             title={book.title}
             author={book.author}
             year={book.year}
@@ -20,5 +21,6 @@ export default function App() {
         <>
             <Header/>
             <main>{entryElements}</main>
+            <Footer/>
         </>);
 }
