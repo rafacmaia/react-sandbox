@@ -24,6 +24,7 @@ body {
 header {
     align-items: center;
     background-color: #F55A5A;
+    /*background-color: #0E7490;*/
     color: white;
     display: flex;
     gap: 1rem;

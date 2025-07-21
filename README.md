@@ -4,21 +4,36 @@ An ongoing personal playground of exercises, mini-projects, and experiments
 done while
 learning React.
 
-## Projects So Far
+## Projects So Far 📌
 
-| Folder                        | Description                                                     |
-|-------------------------------|-----------------------------------------------------------------|
-| `00-udemy-exercise`           | Basic setup following an intro course                           |
-| `01a-static-cocktail-curator` | Static version of a cocktail suggestion app                     |
-| `01b-static-cocktail-curator` | Variation on the static cocktail suggestion page                |
-| `02-props-book-log`           | Book journal app to practice with props and component structure |
+| Folder                        | Description                                                |
+|-------------------------------|------------------------------------------------------------|
+| `00-udemy-exercise`           | Basic setup following an intro course                      |
+| `01a-static-cocktail-curator` | Static version of a cocktail suggestion app                |
+| `01b-static-cocktail-curator` | Variation on the static cocktail suggestion page           |
+| `02-props-book-log`           | Book journal app to practice props and component structure |
 
-### To run a project:
+## To Run a Project 🚀
 
 ```bash
 cd folder-name
 npm install
 npm run dev
+
+# Once the server is running, open the localhost URL in your browser, 
+# usually http://localhost:5173
 ```
 
-Then open your browser to the local dev URL (usually http://localhost:5173).
+## Attributions 🎨
+
+Book covers sourced from public listings on publisher sites and book databases.
+
+The following are available
+under [CC Attribution License](https://creativecommons.org/licenses/by/4.0/) :
+
+- “Books and People” header icon
+  by [Soco St](https://soco-st.com/?ref=svgrepo.com)
+  via [SVG Repo](https://www.svgrepo.com/)
+- "Book SVG Vector"
+  by [Dazzle Ui](https://dazzleui.gumroad.com/l/dazzleiconsfree?ref=svgrepo.com)
+  via [SVG Repo](https://www.svgrepo.com/)

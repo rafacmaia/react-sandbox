@@ -1,19 +1,11 @@
 // noinspection JSValidateTypes
 import StarRating from './StarRating.jsx';
 import EntryText from './EntryText.jsx';
-import book from '../assets/book.svg';
+import bookIcon from '../assets/book.svg';
 import goodreadsIcon from '../assets/goodreads.svg';
 
-export default function Entry({
-                                  cover,
-                                  author,
-                                  year,
-                                  title,
-                                  rating,
-                                  datesRead,
-                                  goodreads,
-                                  thoughts
-                              }) {
+export default function Entry({book}) {
+    const {cover, author, year, title, rating, datesRead, thoughts, goodreads} = book;
 
     return (
         <article className="book-entry">
@@ -22,7 +14,7 @@ export default function Entry({
             </div>
             <section className="entry-info">
                 <div className="author-section">
-                    <img className="book-icon" src={book} alt="Book icon"/>
+                    <img className="book-icon" src={bookIcon} alt="Book icon"/>
                     <span className="author">{author}, {year}</span>
                 </div>
                 <h2 className="title">{title}</h2>

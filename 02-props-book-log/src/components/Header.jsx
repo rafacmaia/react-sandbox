@@ -1,4 +1,4 @@
-import libraryLogo from '../assets/person.svg'
+import libraryLogo from '../assets/person.svg';
 
 export default function Header() {
     return (
@@ -6,5 +6,5 @@ export default function Header() {
             <img src={libraryLogo} className="logo" alt="Books logo"/>
             <h1>my book log</h1>
         </header>
-    )
+    );
 }

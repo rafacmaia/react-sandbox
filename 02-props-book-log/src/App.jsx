@@ -6,14 +6,8 @@ import bookData from './bookData.js';
 export default function App() {
     const entryElements = bookData.map(book =>
         <Entry
-            cover={book.coverImg}
-            title={book.title}
-            author={book.author}
-            year={book.year}
-            rating={book.rating}
-            goodreads={book.goodreads}
-            datesRead={book.datesRead}
-            thoughts={book.thoughts}
+            key={book.id}
+            book={book}
         />
     );
 

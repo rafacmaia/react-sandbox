@@ -9,7 +9,7 @@ import coverWarOnGaza from './assets/war-on-gaza.jpg';
 export default [
     {
         id: 1,
-        coverImg: {
+        cover: {
             src: coverLikePeopleInHistory,
             alt: 'Cover of Like People in History'
         },
@@ -23,7 +23,7 @@ export default [
     },
     {
         id: 2,
-        coverImg: {
+        cover: {
             src: coverIWhoHaveNeverKnownMen,
             alt: 'Cover of I Who have Never Known Men'
         },
@@ -37,7 +37,7 @@ export default [
     },
     {
         id: 3,
-        coverImg: {
+        cover: {
             src: coverChildrenOfDune,
             alt: 'Cover of Children of Dune'
         },
@@ -47,11 +47,12 @@ export default [
         rating: 3.5,
         goodreads: 'https://www.goodreads.com/book/show/44492286-children-of-dune',
         datesRead: '21 Jan, 2025 – 20 May, 2025',
-        thoughts: 'Love and hate this Herbert guy. Still amazed at the world he created; the first book blows it out of the park just by the sheer inventiveness of it all. It\'s thrilling, and thorough, and yes a bit dated (homophobic) in it\'s villains, but still such an incredibly fleshed out, gripping universe. Then the second was awful, and now this – it rekindles some of the original thrill, I liked it overall, but it\'s mainly fine. I really don\'t like his voice, his \'I know everything\' tone, it\'s so navel-gazey. But I still got into it, invested enough now to see where it goes from here...'
+        thoughts: 'Love and hate this Herbert guy. Still amazed at the world he created; the' +
+            ' first book blows it out of the park just by the sheer inventiveness of it all. It\'s thrilling, and thorough, and yes a bit dated (homophobic) in it\'s villains, but still such an incredibly fleshed out, gripping universe. Then the second was awful, and now this – it rekindles some of the original thrill, I liked it overall, but it\'s mainly fine. I really don\'t like his voice, his "I know everything" tone, it\'s so navel-gazey. But I still got into it, invested enough now to see where it goes from here...'
     },
     {
         id: 4,
-        coverImg: {
+        cover: {
             src: coverTheCureForDrowning,
             alt: 'Cover of The Cure for Drowning'
         },
@@ -65,7 +66,7 @@ export default [
     },
     {
         id: 5,
-        coverImg: {
+        cover: {
             src: coverKinkStories,
             alt: 'Cover of Kink: Stories'
         },
@@ -75,11 +76,16 @@ export default [
         rating: 3,
         goodreads: 'https://www.goodreads.com/book/show/54304256-kink',
         datesRead: '16 Jan, 2025 – 6 Mar, 2025',
-        thoughts: 'Mixed bag. Quite a few read like just blog posts instead of fully realized stories, but there were a few gems that will stay with me. Carmen Maria Machado, Vanessa Clark, and Kim Fu were the clear standouts for me. I also loved Brandon Taylor\'s prose, he is so so talented, but his characters always feel so artificial/affected (had the same experience reading his novel) that I couldn\'t get into the story.'
+        thoughts: 'Mixed bag. Quite a few read like blog posts instead of fully realized' +
+            ' stories, but there are a few gems that will stay with me. Carmen Maria Machado,' +
+            ' Vanessa Clark, and Kim Fu were the clear standouts for me. I also loved Brandon' +
+            ' Taylor\'s prose, he is so so talented, but his characters always feel so' +
+            ' artificial/affected (had the same experience reading his novel) that I couldn\'t' +
+            ' fully get into his story.'
     },
     {
         id: 6,
-        coverImg: {
+        cover: {
             src: coverZami,
             alt: 'Cover of Zami'
         },
@@ -93,7 +99,7 @@ export default [
     },
     {
         id: 7,
-        coverImg: {
+        cover: {
             src: coverWarOnGaza,
             alt: 'Cover of War on Gaza'
         },
