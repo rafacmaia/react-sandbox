@@ -1,14 +1,39 @@
-import coverLikePeopleInHistory from './assets/like-people-in-history.jpg';
-import coverIWhoHaveNeverKnownMen from './assets/i-who-have-never-known-men.jpg';
-import coverChildrenOfDune from './assets/children-of-dune.jpg';
-import coverKinkStories from './assets/kink-stories.jpg';
-import coverTheCureForDrowning from './assets/the-cure-for-drowning.jpg';
-import coverZami from './assets/zami.jpg';
-import coverWarOnGaza from './assets/war-on-gaza.jpg';
+import coverLikePeopleInHistory from './assets/covers/like-people-in-history.jpg';
+import coverIWhoHaveNeverKnownMen from './assets/covers/i-who-have-never-known-men.jpg';
+import coverChildrenOfDune from './assets/covers/children-of-dune.jpg';
+import coverKinkStories from './assets/covers/kink-stories.jpg';
+import coverTheCureForDrowning from './assets/covers/the-cure-for-drowning.jpg';
+import coverZami from './assets/covers/zami.jpg';
+import coverWarOnGaza from './assets/covers/war-on-gaza.jpg';
+import coverDaughtersOfTheDeer from './assets/covers/daughters-of-the-deer.jpg';
+
+let idCounter = 1;
 
 export default [
     {
-        id: 1,
+        id: idCounter++,
+        cover: {
+            src: coverDaughtersOfTheDeer,
+            alt: 'Cover of Daughters of the Deer',
+        },
+        title: 'Daughters of the Deer',
+        author: 'Danielle Daniel',
+        year: '2022',
+        rating: 3,
+        goodreads: 'https://www.goodreads.com/book/show/58433168-daughters-of-the-deer',
+        datesRead: '16 May, 2025 - 21 July, 2025',
+        thoughts: 'I respect and feel for what this book tries to do. I loved the setting, the' +
+            ' ideas and the clear heart behind the story. But there\'s a lot that I felt' +
+            ' wanting as well. I wish we were brought more into the beauty and reverence' +
+            ' accorded to the Anishinaabe community instead of just jumping in from sad' +
+            ' mini-chapter to sad mini-chapter. Characters and memories were often brought in to' +
+            ' serve the plot and then never, or barely, mentioned again. I wonder if there was' +
+            ' a heavy editor\'s hand behind it all because it felt like I was reading' +
+            ' the abridged version of what could have been a very rich story. I feel for the' +
+            ' story, but was ultimately let down by the way it was told.'
+    },
+    {
+        id: idCounter++,
         cover: {
             src: coverLikePeopleInHistory,
             alt: 'Cover of Like People in History'
@@ -22,7 +47,7 @@ export default [
         thoughts: 'Really appreciated reading it even if there\'s a lot that hasn\'t aged well. There\'s a feeling of epicness in following this (toxic) friendship over 4 decades, and something about the language and the queer references feels so special, like a treasured time capsule. It\'s a very special book in a way, iffy at times, but deserving of a spot in the canon of queer lit.'
     },
     {
-        id: 2,
+        id: idCounter++,
         cover: {
             src: coverIWhoHaveNeverKnownMen,
             alt: 'Cover of I Who have Never Known Men'
@@ -36,7 +61,7 @@ export default [
         thoughts: 'What a hidden gem! Was completely carried away by this tiny book. There are no breaks, no chapters, but the voice is so compelling and magnetic even though the actual story and the landscape is so bleak. It\'s stoically beautiful and heartbreaking; my favorite read of the year so far!'
     },
     {
-        id: 3,
+        id: idCounter++,
         cover: {
             src: coverChildrenOfDune,
             alt: 'Cover of Children of Dune'
@@ -51,7 +76,7 @@ export default [
             ' first book blows it out of the park just by the sheer inventiveness of it all. It\'s thrilling, and thorough, and yes a bit dated (homophobic) in it\'s villains, but still such an incredibly fleshed out, gripping universe. Then the second was awful, and now this – it rekindles some of the original thrill, I liked it overall, but it\'s mainly fine. I really don\'t like his voice, his "I know everything" tone, it\'s so navel-gazey. But I still got into it, invested enough now to see where it goes from here...'
     },
     {
-        id: 4,
+        id: idCounter++,
         cover: {
             src: coverTheCureForDrowning,
             alt: 'Cover of The Cure for Drowning'
@@ -65,7 +90,7 @@ export default [
         thoughts: 'Great story, beautifully told. I just really enjoyed reading this, the story was interesting, unique, and I loved the hint of magical realism. There is so much heart behind this, as if a lot of the passion comes just from the will to make space in the literary landscape for these kinds of characters, and it succeeds beautifully. Still thought it was cheap that they killed off Jep, it was textbook \'must kill the sweet one\' level of emotional manipulation, but that\'s a tiny gripe in what is, without a doubt, a great book.'
     },
     {
-        id: 5,
+        id: idCounter++,
         cover: {
             src: coverKinkStories,
             alt: 'Cover of Kink: Stories'
@@ -84,7 +109,7 @@ export default [
             ' fully get into his story.'
     },
     {
-        id: 6,
+        id: idCounter++,
         cover: {
             src: coverZami,
             alt: 'Cover of Zami'
@@ -98,7 +123,7 @@ export default [
         thoughts: 'Beautiful writing, beautiful life. Was aware of Audre Lorde, but had never read her before. I felt so privileged to be taken into her life in this way, she writes so beautifully as she pieces together the parts of herself that made her, as she revisits her own journey... This is a kind of life that we don\'t hear much of and it felt so powerful just to read it, to hear her claim her place in the world, in the landscape of narratives that we associate with America, New York, mid-20th century... Very glad I read this, highly recommend it, and look forward to being welcomed again into her mind and heart.'
     },
     {
-        id: 7,
+        id: idCounter++,
         cover: {
             src: coverWarOnGaza,
             alt: 'Cover of War on Gaza'

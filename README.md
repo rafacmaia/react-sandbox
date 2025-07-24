@@ -1,4 +1,5 @@
 # React Sandbox 🧪
+![Status](https://img.shields.io/badge/status-in--development-yellow)
 
 An ongoing personal playground of exercises, mini-projects, and experiments
 done while
