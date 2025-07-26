@@ -18,3 +18,14 @@ Under CC0 License (free to use, no attribution needed):
 - books.svg
 - book2.svg
 - book3.svg
+- writer1.svg pencil dark outline
+- writer2.svg pencil no outline
+- writer3.svg book & pencil
+
+Under MIT (free to use, must include copyright notice):
+
+- writer5.svg pencil icon (Vectors and icons
+  by <a href="https://github.com/neuicons/neu?ref=svgrepo.com" target="_blank">
+  Neuicons</a> in MIT License
+  via <a href="https://www.svgrepo.com/" target="_blank">SVG Repo</a>) (
+  Copyright (c) 2020 Royyan Wijaya)
