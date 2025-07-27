@@ -2,7 +2,7 @@
 import StarRating from "./StarRating.jsx";
 import EntryText from "./EntryText.jsx";
 import bookIcon from "../assets/writer3.svg";
-import goodreadsIcon from "../assets/goodreads.svg";
+import goodreadsIcon from "../assets/goodreads.png";
 
 export default function Entry({ book }) {
   const { cover, author, year, title, rating, datesRead, thoughts, goodreads } =
@@ -27,23 +27,23 @@ export default function Entry({ book }) {
             src={bookIcon}
             alt="Book icon"
           />
-          <span className="inline align-middle text-base tracking-[0.16rem] md:text-[0.9rem] md:tracking-[0.19rem]">
+          <span className="font-montserrat-alt inline align-middle text-base tracking-[0.16rem] md:text-[0.9rem] md:tracking-[0.19rem]">
             {author}, {year}
           </span>
         </div>
-        <h2 className="mb-6 text-3xl leading-[1.25] font-bold md:text-[2.2rem]">
+        <h2 className="font-montserrat mb-6 text-3xl leading-[1.25] font-bold md:text-[2.2rem]">
           {title}
         </h2>
         <StarRating rating={rating} />
         <div className="mb-2 flex gap-2.5">
           <span className="text-base font-medium">{datesRead}</span>
           <a
-            className="translate-y-0.5 rounded-full"
+            className="size-5 translate-y-0.5 rounded-md"
             href={goodreads}
             target="_blank"
           >
             <img
-              className="transition-filter w-5 rounded-full object-cover duration-300 hover:drop-shadow-[0_0_0.15em_#77440f]"
+              className="transition-filter size-full rounded-md object-cover duration-300 hover:drop-shadow-[0_0_0.15em_#77440f]"
               src={goodreadsIcon}
               alt="Goodreads icon"
             />

@@ -16,45 +16,6 @@
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media (max-width: 767px) {
-    
-
-    /*main {*/
-    /*    align-items: center;*/
-    /*    display: flex;*/
-    /*    flex-direction: column;*/
-    /*    padding: 15px 2.5rem;*/
-    /*}*/
-    /*.book-entry {*/
-    /*    align-items: center;*/
-    /*    !*border: 1px lightgrey solid;*!*/
-    /*    !*border-radius: 1rem;*!*/
-    /*    !*box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);*!*/
-    /*    flex-direction: column;*/
-    /*    gap: 2rem;*/
-    /*    justify-content: center;*/
-    /*    max-width: 500px;*/
-    /*    padding: 35px 0;*/
-    /*}*/
-    /*.cover-containers {*/
-    /*    !*border-radius: 12px;*!*/
-    /*    !*flex-shrink: 0;*!*/
-    /*    !*height: 375px;*!*/
-    /*    !*margin-top: 0;*!*/
-    /*    !*overflow: hidden;*!*/
-    /*    !*width: 245px;*!*/
-    /*    !*height: 260 or 275px;*!*/
-    /*    !*width: 170 or 180px*!*/
-    /*}*/
-    /*.author {*/
-    /*    !*font-size: 0.9rem;*!*/
-    /*    !*letter-spacing: 0.15rem;*!*/
-    /*}*/
-    /*.title {*/
-    /*    font-size: 1.75rem;*/
-    /*}*/
-}
-
 /*
 
 button {
