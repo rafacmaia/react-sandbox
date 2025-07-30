@@ -29,3 +29,10 @@ Under MIT (free to use, must include copyright notice):
   Neuicons</a> in MIT License
   via <a href="https://www.svgrepo.com/" target="_blank">SVG Repo</a>) (
   Copyright (c) 2020 Royyan Wijaya)
+
+### 03 Project:
+
+Under CC0 License (free to use, no attribution needed):
+
+- Barman svg vector
+- Faucet SVG Vector

@@ -14,7 +14,7 @@ learning React.
 | `01a-static-cocktail-curator` | Static version of a cocktail suggestion app                |
 | `01b-static-cocktail-curator` | Variation on the static cocktail suggestion page           |
 | `02-props-book-log`           | Book journal app to practice props and component structure |
-| `03-dynamuc-drinks-oracle`    | Dynamic cocktail suggestion app                            |
+| `03-dynamic-drinks-oracle`    | Dynamic cocktail suggestion app                            |
 
 ## To Run a Project 🚀
 
@@ -29,6 +29,8 @@ npm run dev
 
 ## Attributions 🎨
 
+### 02-props-book-log 📚
+
 Book covers sourced from public listings on publisher sites and book databases.
 
 The following are available
@@ -40,3 +42,6 @@ under [CC Attribution License](https://creativecommons.org/licenses/by/4.0/) :
 - "Book SVG Vector"
   by [Dazzle Ui](https://dazzleui.gumroad.com/l/dazzleiconsfree?ref=svgrepo.com)
   via [SVG Repo](https://www.svgrepo.com/)
+
+### 03-dynamic-drinks-oracle 🍸
+
