@@ -1,19 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Gaegu&family=Italiana&family=Klee+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tsukimi+Rounded&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Cabin:ital,wght@0,400..700;1,400..700&family=Gaegu&family=Klee+One&family=Poiret+One&family=Quicksand:wght@300..700&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 @import "tailwindcss";
 
-@theme {
-    --font-montserrat: "Montserrat", sans-serif;
-    --font-montserrat-alt: "Montserrat Alternates", sans-serif;
-    --font-winky-rough: "Winky Rough", cursive;
-    --font-gaegu: "Gaegu", sans-serif;
-    --font-bagel: "Bagel Fat One", cursive;
-    --font-klee: "Klee One", cursive;
-    --font-tsukimi: "Tsukimi Rounded", cursive;
-    --font-italiana: "Italiana", serif;
-    --font-raleway: "Raleway", sans-serif;
-    --font-quicksand: "Quicksand", sans-serif;
-}
+/* great background color: #ff5500*/
+/* red alternate #f00f0f */
 
+@theme inline {
+    --color-primary: var(--color-sky-800);
+    --color-secondary: var(--color-yellow-300);
+    /*--color-secondary: #ffd35b;*/
+    --color-accent: #ee3211;
+    --color-background: #fff0e0;
+    --color-header: var(--color-secondary);
+    --color-button: var(--color-primary);
+    --color-button-text: var(--color-secondary);
+
+    --font-title: var(--font-bagel);
+    --font-body: var(--font-poiret-one);
+    --font-accent: var(--font-body);
+
+    /* FONT COMBOS
+     - bagel + poiret/cabin (maaaybe klee)
+      - poiret + bagel (not bold)
+
+    */
+    --font-bagel: "Bagel Fat One", cursive;
+    --font-poiret-one: "Poiret One", cursive;
+
+    /* body options */
+    --font-klee: "Klee One", cursive;
+    --font-quicksand: "Quicksand", sans-serif;
+    --font-cabin: "Cabin", sans-serif;
+
+    /* placeholder text */
+    --font-gaegu: "Gaegu", sans-serif;
+
+
+}
 
 * {
     /*outline: 1px solid red;*/
