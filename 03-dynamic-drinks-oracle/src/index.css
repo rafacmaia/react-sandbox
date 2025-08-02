@@ -2,21 +2,21 @@
 @import "tailwindcss";
 
 /* great background color: #ff5500*/
-/* red alternate #f00f0f */
+/* red alternate #f00f0f rgb(255, 101, 74)*/
 
 @theme inline {
-    --color-primary: var(--color-yellow-200);
-    --color-secondary: var(--color-sky-900);
+    --color-primary: var(--color-yellow-300);
+    --color-secondary: #ff4e30;
     /*--color-secondary: #ffd35b;*/
-    --color-accent: rgb(255, 101, 74);
+    --color-accent: var(--color-secondary);
     --color-background: var(--color-sky-900);
     --color-header: var(--color-secondary);
-    --color-button: var(--color-primary);
-    --color-button-text: var(--color-secondary);
+    --color-button: var(--color-yellow-300);
+    --color-button-text: var(--color-background);
 
     --font-title: var(--font-bagel);
-    --font-body: var(--font-poiret-one);
-    --font-accent: var(--font-body);
+    --font-body: var(--font-quicksand);
+    --font-accent: var(--font-quicksand);
 
     /* FONT COMBOS
      - bagel + poiret/cabin (maaaybe klee)
