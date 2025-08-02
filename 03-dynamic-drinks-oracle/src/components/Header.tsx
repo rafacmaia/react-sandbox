@@ -2,13 +2,13 @@ import headerLogoAlt from "./../assets/barman.svg";
 
 export default function Header() {
   return (
-    <header className="bg-header flex h-26 w-screen items-center justify-center gap-4 px-8 shadow-[0_1px_3px_0_rgba(0,0,0,0.1),0_1px_2px_0_rgba(0,0,0,0.06)]">
+    <header className="flex h-26 w-screen items-center justify-center gap-4 bg-header px-8 shadow-[0_1px_3px_0_rgba(0,0,0,0.1),0_1px_2px_0_rgba(0,0,0,0.06)]">
       <img
         className="h-13 translate-y-1"
         src={headerLogoAlt}
         alt="Bartender logo"
       />
-      <h1 className="font-title text-primary text-[46px]/13 font-normal tracking-wide text-nowrap sm:text-[50px]/15">
+      <h1 className="font-title text-[46px]/13 font-normal tracking-wide text-nowrap text-primary sm:text-[50px]/15">
         Drinks Oracle
       </h1>
       {/*<img*/}

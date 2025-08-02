@@ -5,11 +5,11 @@
 /* red alternate #f00f0f */
 
 @theme inline {
-    --color-primary: var(--color-sky-800);
-    --color-secondary: var(--color-yellow-300);
+    --color-primary: var(--color-yellow-200);
+    --color-secondary: var(--color-sky-900);
     /*--color-secondary: #ffd35b;*/
-    --color-accent: #ee3211;
-    --color-background: #fff0e0;
+    --color-accent: rgb(255, 101, 74);
+    --color-background: var(--color-sky-900);
     --color-header: var(--color-secondary);
     --color-button: var(--color-primary);
     --color-button-text: var(--color-secondary);
