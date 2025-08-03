@@ -5,13 +5,13 @@ export default function Main() {
     <main className="flex w-screen grow pb-4">
       <div className="m-auto flex w-full flex-col items-center justify-center">
         {/* HEADER TEST */}
-        <div className="mb-24 flex flex-col items-center justify-center gap-8 sm:mb-20 sm:flex-row sm:gap-7">
+        <div className="mb-20 flex flex-row items-end justify-center gap-4 sm:mb-20 sm:gap-7">
           <img
-            className="h-16 sm:h-20"
+            className="h-15 translate-y-1 sm:h-21 sm:translate-0"
             src={headerLogoAlt}
             alt="Bartender logo"
           />
-          <h1 className="font-title text-[60px]/13 font-black tracking-wide text-nowrap text-primary sm:text-[80px]">
+          <h1 className="inline align-text-top font-title text-[52px] font-light tracking-wide text-nowrap text-primary underline decoration-accent decoration-wavy decoration-4 underline-offset-[0.8rem] sm:text-[80px]">
             Drinks Oracle
           </h1>
         </div>
@@ -39,7 +39,7 @@ export default function Main() {
               Add vibe
             </button>
           </div>
-          <button className="relative mt-6 h-17 w-84 cursor-pointer rounded-t-md rounded-b-md border-3 border-accent bg-button p-2 font-accent text-[1.75rem] font-semibold tracking-wide text-button-text shadow-[0_7px_0_0_var(--color-accent)] hover:top-[3px] hover:shadow-none focus:outline-accent active:top-[3px] active:shadow-none sm:w-99">
+          <button className="relative mt-6 h-16 w-80 cursor-pointer rounded-t-md rounded-b-md border-3 border-accent bg-button p-2 font-accent text-[1.65rem] font-semibold tracking-wide text-button-text shadow-[0_7px_0_0_var(--color-accent)] hover:top-[3px] hover:shadow-none focus:outline-accent active:top-[3px] active:shadow-none sm:h-17 sm:w-84 sm:w-99 sm:text-[1.75rem]">
             Consult the Oracle
           </button>
         </form>

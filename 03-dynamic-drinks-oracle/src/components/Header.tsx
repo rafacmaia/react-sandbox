@@ -8,7 +8,7 @@ export default function Header() {
         src={headerLogoAlt}
         alt="Bartender logo"
       />
-      <h1 className="font-title text-[46px]/13 font-normal tracking-wide text-nowrap text-primary sm:text-[50px]/15">
+      <h1 className="font-title text-[46px]/13 font-normal tracking-wide text-nowrap text-primary">
         Drinks Oracle
       </h1>
       {/*<img*/}
