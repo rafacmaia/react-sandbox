@@ -1,6 +1,4 @@
-import star from "../assets/star.svg";
-import halfStar from "../assets/half-star.svg";
-import emptyStar from "../assets/empty-star.svg";
+import { StarFilled, StarHalf, StarEmpty } from "./icons/StarIcons.jsx";
 
 export default function StarRating({ rating }) {
   const TOTAL_STARS = 5;
@@ -9,15 +7,19 @@ export default function StarRating({ rating }) {
 
   for (let i = 0; i < fullStars; i++) {
     stars.push(
-      <img className="size-5 md:size-4.5" src={star} alt="Star rating icon" />,
+      <StarFilled
+        key={stars.length}
+        className="size-5 md:size-4.5"
+        alt="Star rating icon"
+      />,
     );
   }
 
   if (rating % 1 === 0.5) {
     stars.push(
-      <img
+      <StarHalf
+        key={stars.length}
         className="size-5 md:size-4.5"
-        src={halfStar}
         alt="Half-star rating icon"
       />,
     );
@@ -25,9 +27,9 @@ export default function StarRating({ rating }) {
 
   while (stars.length < TOTAL_STARS) {
     stars.push(
-      <img
+      <StarEmpty
+        key={stars.length}
         className="size-5 md:size-4.5"
-        src={emptyStar}
         alt="Empty star rating icon"
       />,
     );

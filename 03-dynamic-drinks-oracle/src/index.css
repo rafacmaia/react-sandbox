@@ -9,10 +9,10 @@
     --color-secondary: #ff4e30;
     /*--color-secondary: #ffd35b;*/
     --color-accent: var(--color-secondary);
-    --color-background: var(--color-sky-900);
+    --color-background: var(--color-sky-800);
     --color-header: var(--color-secondary);
     --color-button: var(--color-yellow-300);
-    --color-button-text: var(--color-background);
+    --color-button-text: var(--color-sky-900);
 
     --font-title: var(--font-bagel);
     --font-body: var(--font-quicksand);

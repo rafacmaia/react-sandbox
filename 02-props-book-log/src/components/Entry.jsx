@@ -1,7 +1,6 @@
-// noinspection JSValidateTypes
 import StarRating from "./StarRating.jsx";
 import EntryText from "./EntryText.jsx";
-import bookIcon from "../assets/writer3.svg";
+import bookIcon from "../assets/book-icon2.svg";
 import goodreadsIcon from "../assets/goodreads.png";
 
 export default function Entry({ book }) {
@@ -9,9 +8,9 @@ export default function Entry({ book }) {
     book;
 
   return (
-    <article className="flex h-full max-w-125 flex-col items-center justify-center gap-8.5 border-b border-gray-200 px-2 py-8.75 md:max-w-187 md:flex-row md:items-start md:gap-7.25 md:px-3">
+    <article className="mx-auto flex h-full max-w-125 flex-col items-center justify-center gap-8.5 border-b border-gray-200 px-3.5 py-8.75 sm:px-8 md:max-w-187 md:flex-row md:items-start md:gap-7.25 md:px-3">
       {/* Cover image container */}
-      <div className="cover-container mt-0 h-90 w-60 shrink-0 overflow-hidden rounded-xl md:mt-1.25 md:h-68 md:w-45">
+      <div className="cover-container mt-0 aspect-[2/3] w-58 shrink-0 overflow-hidden rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2),0_6px_20px_0_rgba(0,0,0,0.19)] md:mt-1.25 md:w-45">
         <img
           className="h-full w-full object-cover"
           src={cover.src}
@@ -27,11 +26,11 @@ export default function Entry({ book }) {
             src={bookIcon}
             alt="Book icon"
           />
-          <span className="font-montserrat-alt inline align-middle text-base tracking-[0.16rem] md:text-[0.9rem] md:tracking-[0.19rem]">
+          <span className="align-middle font-montserrat-alt text-base tracking-[0.16rem] text-balance md:text-[0.9rem] md:tracking-[0.19rem]">
             {author}, {year}
           </span>
         </div>
-        <h2 className="font-montserrat mb-6 text-3xl leading-[1.25] font-bold md:text-[2.2rem]">
+        <h2 className="mb-6 font-montserrat text-3xl leading-[1.25] font-bold text-pretty md:text-[2.2rem]">
           {title}
         </h2>
         <StarRating rating={rating} />
@@ -43,7 +42,7 @@ export default function Entry({ book }) {
             target="_blank"
           >
             <img
-              className="transition-filter size-full rounded-md object-cover duration-300 hover:drop-shadow-[0_0_0.15em_#77440f]"
+              className="transition-filter inset-0 size-full rounded-md object-cover duration-300 hover:drop-shadow-[0_0_0.15em_#77440f]"
               src={goodreadsIcon}
               alt="Goodreads icon"
             />
