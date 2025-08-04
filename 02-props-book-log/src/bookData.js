@@ -115,8 +115,8 @@ export default [
       " stories, but there are a few gems that will stay with me. Carmen Maria Machado," +
       " Vanessa Clark, and Kim Fu were the clear standouts for me. I also loved Brandon" +
       " Taylor's prose, he is so so talented, but his characters always feel so" +
-      " artificial/affected (had the same experience reading his novel) that I couldn't" +
-      " fully get into his story.",
+      " artificial/affected. Just couldn't fully get into his story, had the same experience" +
+      " reading his novel: great prose, meh story.",
   },
   {
     id: idCounter++,
@@ -131,7 +131,7 @@ export default [
     goodreads: "https://www.goodreads.com/book/show/395220.Zami",
     datesRead: "15 Jan, 2025 – 1 Mar, 2025",
     thoughts:
-      "Beautiful writing, beautiful life. Was aware of Audre Lorde, but had never read her before. I felt so privileged to be taken into her life in this way, she writes so beautifully as she pieces together the parts of herself that made her, as she revisits her own journey... This is a kind of life that we don't hear much of and it felt so powerful just to read it, to hear her claim her place in the world, in the landscape of narratives that we associate with America, New York, mid-20th century... Very glad I read this, highly recommend it, and look forward to being welcomed again into her mind and heart.",
+      "Beautiful writing, beautiful life. Was aware of Audre Lorde, but had never read her before. I felt so privileged to be taken into her life in this way, she writes so beautifully as she pieces together the parts of herself that made her, as she revisits her own journey. This is a kind of life that we don't hear much of and it felt so powerful just to read it, to hear her claim her place in the world, in the landscape of narratives that we associate with America, New York, mid-20th century... Very glad I read this, highly recommend it, and look forward to being welcomed again into her mind and heart.",
   },
   {
     id: idCounter++,

@@ -11,7 +11,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <main className="w-screen grow px-5 py-5 sm:pb-6 md:px-18 md:pt-13.25">
+      <main className="w-screen grow px-5.25 pt-4 pb-3 md:px-18 md:pt-12.75">
         <div className="h-full w-full flex-col items-center sm:grid sm:grid-cols-[repeat(auto-fit,_minmax(550px,_1fr))] sm:justify-items-center md:gap-x-10">
           {entryElements}
         </div>

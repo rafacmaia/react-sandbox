@@ -8,7 +8,7 @@ export default function Entry({ book }) {
     book;
 
   return (
-    <article className="mx-auto flex h-full max-w-125 flex-col items-center justify-center gap-8.5 border-b border-gray-200 px-3.5 py-8.75 sm:px-8 md:max-w-187 md:flex-row md:items-start md:gap-7.25 md:px-3">
+    <article className="mx-auto flex h-full max-w-125 flex-col items-center justify-center gap-8.5 border-b border-gray-200 px-5 py-8.75 hyphens-auto sm:px-8 md:max-w-187 md:flex-row md:items-start md:gap-7.25 md:px-3">
       {/* Cover image container */}
       <div className="cover-container mt-0 aspect-[2/3] w-58 shrink-0 overflow-hidden rounded-xl shadow-[0_4px_8px_0_rgba(0,0,0,0.2),0_6px_20px_0_rgba(0,0,0,0.19)] md:mt-1.25 md:w-45">
         <img
@@ -26,7 +26,7 @@ export default function Entry({ book }) {
             src={bookIcon}
             alt="Book icon"
           />
-          <span className="align-middle font-montserrat-alt text-base tracking-[0.16rem] text-balance md:text-[0.9rem] md:tracking-[0.19rem]">
+          <span className="align-middle font-montserrat-alt text-base tracking-[0.16rem] md:text-[0.9rem] md:tracking-[0.19rem]">
             {author}, {year}
           </span>
         </div>

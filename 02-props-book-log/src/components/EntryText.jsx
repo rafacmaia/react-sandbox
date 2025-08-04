@@ -32,20 +32,19 @@ export default function EntryText({ thoughts }) {
   const ToggleIcon = expanded ? CircleChevronUp : CircleChevronDown;
 
   return (
-    <p className="max-w-xl leading-[1.35] font-normal hyphens-auto sm:font-light">
+    <p className="max-w-xl leading-[1.35] font-normal sm:font-light">
       {getVisibleText()}
       {isLong && (
         <>
           {!expanded && <span className="tracking-widest">...</span>}
           <button
-            className="ml-1.25 cursor-pointer border-none bg-transparent hover:opacity-70"
+            className="ml-0.75 cursor-pointer border-none bg-transparent hover:opacity-60"
             onClick={() => setExpanded(!expanded)}
             aria-label={expanded ? "Show less" : "Show more"}
           >
             <ToggleIcon
-              size={13}
               color="#F55A5A"
-              className="translate-y-[1px] rotate-330"
+              className="size-[17px] translate-y-[4px] rotate-330 sm:size-[13.5px] sm:translate-y-[4px]"
             />
           </button>
         </>
