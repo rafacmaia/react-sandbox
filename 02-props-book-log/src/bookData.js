@@ -6,6 +6,7 @@ import coverTheCureForDrowning from "./assets/covers/the-cure-for-drowning.jpg";
 import coverZami from "./assets/covers/zami.jpg";
 import coverWarOnGaza from "./assets/covers/war-on-gaza.jpg";
 import coverDaughtersOfTheDeer from "./assets/covers/daughters-of-the-deer.jpg";
+import coverMadameBovary from "./assets/covers/madame-bovary.jpg";
 
 let idCounter = 1;
 
@@ -153,5 +154,32 @@ export default [
       " just because I wanted a bit more to bite into, maybe that's unfair as it's very" +
       " powerful as it is, but still wanted to sit with this perspective a bit longer." +
       " Definitely made me want to read more of Sacco.",
+  },
+  {
+    id: idCounter++,
+    cover: {
+      src: coverMadameBovary,
+      alt: "Cover of Madame Bovary",
+    },
+    title: "Madame Bovary",
+    author: "Gustave Flaubert",
+    year: "1857",
+    rating: 3.5,
+    goodreads: "https://www.goodreads.com/book/show/2175.Madame_Bovary",
+    datesRead: "19 Nov, 2024 – 21 Jan, 2025",
+    thoughts:
+      "I liked it, glad I read it, but I think I had higher expectations. I" +
+      " think I appreciate what this book did for literature as a whole more than the book" +
+      " itself. I enjoyed reading *about* all the ways in which this changed the game more than" +
+      " reading the book itself. It's" +
+      " hard to fully appreciate what it must have felt like to read it at the time, breaking" +
+      " from romanticism, when we already take realism for granted. So much of the" +
+      " power and shock of this book comes from doing things that we have by now seen" +
+      " countless times. Like I couldn't help comparing it to Anna Karenina, which must" +
+      " have been inspired by this, but is leaps and bounds ahead; Karenina is" +
+      " phenomenal and timeless in a way Bovary really isn't. Reading it today, it's hard to" +
+      " appreciate it outside of its context and importance. I also struggle with books where" +
+      " everyone sucks, so maybe that's why I couldn't super get into it. But very glad I read" +
+      " it, still worth the time. Oh also, justice for Berthe!",
   },
 ];

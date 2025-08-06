@@ -35,5 +35,5 @@ export default function StarRating({ rating }) {
     );
   }
 
-  return <div className="mb-4 flex gap-0.5 sm:mb-4">{stars}</div>;
+  return <div className="mb-4.5 flex gap-0.5 sm:mb-4">{stars}</div>;
 }

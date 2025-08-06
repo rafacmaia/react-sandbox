@@ -6,6 +6,7 @@
     --color-primary: #f55a5a;
     --color-background: white;
     --color-text: #212121;
+    --color-thoughts-text: var(--color-gray-800);
     --color-stars: #bf873e; /* Can't style though, have to edit in file */
     --font-montserrat: "Montserrat", sans-serif;
     --font-montserrat-alt: "Montserrat Alternates", sans-serif;

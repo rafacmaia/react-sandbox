@@ -5,12 +5,12 @@
 //   </StrictMode>,
 // )
 
-import {createRoot} from "react-dom/client";
-import Header from "./components/Header.jsx";
-import MainContent from "./components/MainContent.jsx";
-import Footer from "./components/Footer.jsx";
+import {createRoot} from 'react-dom/client';
+import Header from './components/Header.jsx';
+import MainContent from './components/MainContent.jsx';
+import Footer from './components/Footer.jsx';
 
-const root = createRoot(document.getElementById('root'))
+const root = createRoot(document.getElementById('root'));
 
 root.render(
     <>
@@ -18,12 +18,12 @@ root.render(
         <MainContent/>
         <Footer/>
     </>
-)
+);
 
 /*
-    Components I might use for the practice exercise:
-        1. Header (logo & title)
-        2. Main page (title + list + back image)
+ Components I might use for the practice exercise:
+ 1. LandingHeader (logo & title)
+ 2. Main page (title + list + back image)
  */
 
 

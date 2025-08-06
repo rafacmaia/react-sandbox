@@ -6,17 +6,17 @@
 
 @theme inline {
     --color-primary: var(--color-yellow-300);
-    --color-secondary: #ff4e30;
-    /*--color-secondary: #ffd35b;*/
-    --color-accent: var(--color-secondary);
+    --color-text: var(--color-sky-800);
+    --color-accent: #ff4e30;
     --color-background: var(--color-sky-800);
-    --color-header: var(--color-secondary);
     --color-button: var(--color-yellow-300);
-    --color-button-text: var(--color-sky-900);
+    --color-button-text: var(--color-text);
+    --color-list-background: var(--color-yellow-100);
 
     --font-title: var(--font-bagel);
     --font-body: var(--font-quicksand);
     --font-accent: var(--font-quicksand);
+    --font-list: var(--font-quicksand);
 
     /* FONT COMBOS
      - bagel + poiret/cabin (maaaybe klee)

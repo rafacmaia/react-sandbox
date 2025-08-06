@@ -31,7 +31,11 @@ npm run dev
 
 ### 02-props-book-log 📚
 
-Book covers sourced from public listings on publisher sites and book databases.
+Book covers were sourced from public listings on publisher sites and book
+databases.
+
+Most SVG icons obtained from [SVG Repo](https://www.svgrepo.com/) under CC0
+License (no attribution needed)
 
 The following are available
 under [CC Attribution License](https://creativecommons.org/licenses/by/4.0/) :
