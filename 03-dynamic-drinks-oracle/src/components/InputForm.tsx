@@ -1,13 +1,26 @@
-export default function InputForm() {
-  const submitHandler = () => alert("Submitted!");
+import type { FormEvent } from "react";
+
+interface Props {
+  addIngredient: (ingredient: string) => void;
+  addVibe: (vibe: string) => void;
+}
+
+export default function InputForm({ addIngredient, addVibe }: Props) {
+  const submitHandler = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.currentTarget);
+    if (formData.get("ingredient")) {
+      addIngredient(formData.get("ingredient") as string);
+    } else {
+      addVibe(formData.get("vibe") as string);
+    }
+  };
 
   return (
     <div className="flex w-[85%] min-w-sm flex-col items-center gap-6 md:w-3xl lg:w-4xl">
       <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          submitHandler();
-        }}
+        onSubmit={(e) => submitHandler(e)}
         className="flex w-full items-center justify-center gap-2 sm:gap-3"
       >
         <input
@@ -25,7 +38,7 @@ export default function InputForm() {
         </button>
       </form>
       <form
-        onSubmit={submitHandler}
+        onSubmit={(e) => submitHandler(e)}
         className="flex w-full items-center justify-center gap-2 sm:gap-3"
       >
         <input
