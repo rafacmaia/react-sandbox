@@ -6,6 +6,31 @@ interface InputFormProps {
 }
 
 export default function InputForm({ addIngredient, addVibe }: InputFormProps) {
+  const placeholderIngredients: string[] = [
+    "luxardo",
+    "basil",
+    "mustard",
+    "absinthe",
+    "earl grey",
+    "peaches",
+    "cynar",
+    "cachaça",
+    "chartreuse",
+    "gummy bears",
+  ];
+  const placeholderVibes: string[] = [
+    "eat the rich",
+    "fuck the patriarchy",
+    "the blood of my enemies",
+    "can't quite afford a Japan trip",
+    "dual income, no kids",
+    "is pedro pascal bi?",
+    "urban witches",
+    "late capitalist nihilism",
+    "JOMO - joy of missing out",
+    "be gay do crime",
+  ];
+
   const submitHandler = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -15,6 +40,8 @@ export default function InputForm({ addIngredient, addVibe }: InputFormProps) {
     } else {
       addVibe(formData.get("vibe") as string);
     }
+
+    e.currentTarget.reset();
   };
 
   return (
@@ -26,7 +53,7 @@ export default function InputForm({ addIngredient, addVibe }: InputFormProps) {
         <input
           aria-label="Add an ingredient"
           className="h-11 w-lg min-w-44 grow rounded-md border border-accent bg-yellow-50 px-3 py-2 font-gaegu text-xl text-background placeholder-accent/75 focus:outline-accent"
-          placeholder="e.g., luxardo"
+          placeholder={`e.g., ${placeholderIngredients[Math.floor(Math.random() * placeholderIngredients.length)]}`}
           type="text"
           name="ingredient"
         ></input>
@@ -44,7 +71,7 @@ export default function InputForm({ addIngredient, addVibe }: InputFormProps) {
         <input
           aria-label="Add a vibe"
           className="h-11 w-lg min-w-44 grow rounded-md border border-accent bg-yellow-50 px-3 py-2 font-gaegu text-xl text-background placeholder-accent/75 focus:outline-accent"
-          placeholder="e.g., fuck the patriarchy"
+          placeholder={`e.g., ${placeholderVibes[Math.floor(Math.random() * placeholderVibes.length)]}`}
           type="text"
           name="vibe"
         ></input>
