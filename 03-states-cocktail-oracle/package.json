@@ -1,8 +1,8 @@
 {
-  "name": "drinks-oracle",
+  "name": "cocktail-oracle",
   "version": "0.3.0",
   "private": true,
-  "description": "An app that suggests cocktails based on user's ingredients and vibes",
+  "description": "Mock app that suggests cocktails based on user's ingredients and vibes",
   "author": "Zou Labs <rfpcmaia@gmail.com> (https://github.com/rafacmaia)",
   "license": "MIT",
   "repository": {

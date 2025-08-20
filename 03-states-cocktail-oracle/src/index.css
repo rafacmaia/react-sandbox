@@ -14,9 +14,9 @@
     --color-list-background: var(--color-yellow-100);
 
     --font-title: var(--font-bagel);
-    --font-body: var(--font-quicksand);
-    --font-accent: var(--font-quicksand);
-    --font-list: var(--font-quicksand);
+    --font-body: var(--font-klee);
+    --font-accent: var(--font-body);
+    --font-list: var(--font-body);
 
     /* FONT COMBOS
      - bagel + poiret/cabin (maaaybe klee)

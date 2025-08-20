@@ -10,12 +10,12 @@ interface InputListsProps {
 export default function InputLists({ ingredients, vibes }: InputListsProps) {
   return (
     <section
-      className={`flex w-[85%] flex-row items-stretch justify-between gap-4 font-list sm:gap-12 sm:px-12 md:w-3xl lg:w-4xl ${ingredients.length === 0 && vibes.length === 0 ? "hidden" : ""}`}
+      className={`flex w-[88%] items-stretch justify-between gap-4 font-list sm:gap-12 sm:px-12 md:w-3xl lg:w-4xl ${ingredients.length === 0 && vibes.length === 0 ? "hidden" : ""}`}
     >
       <List heading="Ingredients">
         {ingredients.map((ingredient) => (
           <li key={ingredient} className="flex items-center gap-1 capitalize">
-            <Cherry className="size-3 flex-shrink-0" strokeWidth={2} />
+            <Cherry className="mr-2 size-3 flex-shrink-0" strokeWidth={2} />
             <span>{ingredient}</span>
           </li>
         ))}
@@ -24,7 +24,7 @@ export default function InputLists({ ingredients, vibes }: InputListsProps) {
       <List heading="Vibes">
         {vibes.map((vibe) => (
           <li key={vibe} className="flex items-center gap-1">
-            <Sparkle className="size-3 flex-shrink-0" strokeWidth={2} />
+            <Sparkle className="mr-2 size-3 flex-shrink-0" strokeWidth={2} />
             <span className={`first-letter:uppercase`}>{vibe}</span>
           </li>
         ))}
@@ -40,10 +40,10 @@ interface ListProps {
 
 function List({ heading, children }: ListProps) {
   return (
-    <div className="min-h-40 w-full rounded-md border-2 border-accent bg-yellow-100 px-4 py-4 sm:p-7 md:w-lg">
-      <h2 className="pb-1 text-2xl font-black">{heading}</h2>
+    <div className="w-full rounded-md border-2 border-accent bg-yellow-100 p-5 sm:p-6 md:w-lg">
+      <h2 className="pb-1 text-xl font-black sm:text-2xl">{heading}</h2>
       <WavyDivider />
-      <ul className="mt-5 ml-1 space-y-3 indent-2 font-semibold sm:text-lg">
+      <ul className="mt-3 ml-1 space-y-3 font-semibold sm:mt-5 sm:text-lg">
         {children}
       </ul>
     </div>

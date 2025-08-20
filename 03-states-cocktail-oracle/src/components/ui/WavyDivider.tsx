@@ -1,6 +1,6 @@
 export default function WavyDivider({
-  waveLength = 25,
-  amplitude = 7,
+  waveLength = 21,
+  amplitude = 6,
   height = 2,
 }) {
   // Raw SVG string

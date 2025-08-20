@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
     <footer className="w-screen p-4 text-center text-primary/75">
-      <hr className="m-auto mb-4 w-3/4 border-primary opacity-30" />
+      <hr className="m-auto mb-4 w-11/12 border-primary opacity-30 sm:w-2/5" />
       <small className="font-gaegu">
-        Built by cats & humans at{" "}
+        &copy; {new Date().getFullYear()}{" "}
         <a
           className="cursor-pointer font-bold hover:text-primary/100 active:text-primary/100"
           href="https://github.com/rafacmaia"
@@ -12,8 +12,8 @@ export default function Footer() {
         >
           Zou Labs 🐈
         </a>
-        <span className={`mx-2 hidden font-black sm:inline`}>·</span>
-        &copy; {new Date().getFullYear()} Licensed under MIT.
+        <span className={`mx-2 font-black`}>·</span>
+        Licensed under MIT.
       </small>
     </footer>
   );
