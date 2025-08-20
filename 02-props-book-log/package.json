@@ -1,7 +1,14 @@
 {
-  "name": "02-travel-log",
+  "name": "book-log",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.0",
+  "description": "Static book log display",
+  "author": "Zou Labs <rfpcmaia@gmail.com> (https://github.com/rafacmaia)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafacmaia/react-sandbox"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -19,8 +26,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",

@@ -1,12 +1,12 @@
-import coverLikePeopleInHistory from "./assets/covers/like-people-in-history.jpg";
-import coverIWhoHaveNeverKnownMen from "./assets/covers/i-who-have-never-known-men.jpg";
-import coverChildrenOfDune from "./assets/covers/children-of-dune.jpg";
-import coverKinkStories from "./assets/covers/kink-stories.jpg";
-import coverTheCureForDrowning from "./assets/covers/the-cure-for-drowning.jpg";
-import coverZami from "./assets/covers/zami.jpg";
-import coverWarOnGaza from "./assets/covers/war-on-gaza.jpg";
-import coverDaughtersOfTheDeer from "./assets/covers/daughters-of-the-deer.jpg";
-import coverMadameBovary from "./assets/covers/madame-bovary.jpg";
+import coverLikePeopleInHistory from "../assets/covers/like-people-in-history.jpg";
+import coverIWhoHaveNeverKnownMen from "../assets/covers/i-who-have-never-known-men.jpg";
+import coverChildrenOfDune from "../assets/covers/children-of-dune.jpg";
+import coverKinkStories from "../assets/covers/kink-stories.jpg";
+import coverTheCureForDrowning from "../assets/covers/the-cure-for-drowning.jpg";
+import coverZami from "../assets/covers/zami.jpg";
+import coverWarOnGaza from "../assets/covers/war-on-gaza.jpg";
+import coverDaughtersOfTheDeer from "../assets/covers/daughters-of-the-deer.jpg";
+import coverMadameBovary from "../assets/covers/madame-bovary.jpg";
 
 let idCounter = 1;
 

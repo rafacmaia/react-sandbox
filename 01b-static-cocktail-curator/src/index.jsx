@@ -23,7 +23,7 @@ root.render(
 /*
  Components I might use for the practice exercise:
  1. LandingHeader (logo & title)
- 2. Main page (title + list + back image)
+ 2. MainSection page (title + list + back image)
  */
 
 

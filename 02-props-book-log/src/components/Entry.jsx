@@ -1,7 +1,7 @@
-import StarRating from "./StarRating.jsx";
-import EntryText from "./EntryText.jsx";
-import bookIcon from "../assets/book-icon2.svg";
-import goodreadsIcon from "../assets/goodreads.png";
+import StarRating from "./StarRating";
+import EntryText from "./EntryText";
+import bookIcon from "@assets/book-icon2.svg";
+import goodreadsIcon from "@assets/social/goodreads.png";
 
 export default function Entry({ book }) {
   const { cover, author, year, title, rating, datesRead, thoughts, goodreads } =

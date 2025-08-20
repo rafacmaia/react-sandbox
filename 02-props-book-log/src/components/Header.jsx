@@ -1,4 +1,4 @@
-import Logo from "./icons/HeaderLogo.jsx";
+import Logo from "./icons/HeaderLogo";
 
 export default function Header() {
   return (

@@ -32,7 +32,7 @@ export default function EntryText({ thoughts }) {
   const ToggleIcon = expanded ? CircleChevronUp : CircleChevronDown;
 
   return (
-    <p className="max-w-xl text-[1rem] leading-[1.45] text-thoughts-text sm:font-light">
+    <p className="max-w-xl text-[1rem] leading-[1.4] text-thoughts-text sm:font-light">
       {getVisibleText()}
       {isLong && (
         <>

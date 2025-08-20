@@ -1,10 +1,10 @@
-import Main from "./components/Main";
+import MainSection from "./components/MainSection";
 import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <>
-      <Main />
+      <MainSection />
       <Footer />
     </>
   );

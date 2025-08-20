@@ -16,6 +16,7 @@ export function StarFilled({
       viewBox="0 -0.03 60.062 60.062"
       className={className}
       xmlns="http://www.w3.org/2000/svg"
+      aria-hidden={true}
     >
       <path
         fill={fill}
@@ -45,6 +46,7 @@ export function StarHalf({
       viewBox="0 -0.02 60.031 60.031"
       className={className}
       xmlns="http://www.w3.org/2000/svg"
+      aria-hidden={true}
     >
       <path
         fill={fill}
@@ -74,6 +76,7 @@ export function StarEmpty({
       viewBox="0 -0.02 60.031 60.031"
       className={className}
       xmlns="http://www.w3.org/2000/svg"
+      aria-hidden={true}
     >
       <path
         fill={fill}
