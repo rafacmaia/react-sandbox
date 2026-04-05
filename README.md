@@ -1,10 +1,10 @@
 # React Sandbox 🧪
 
 ![Status](https://img.shields.io/badge/status-in--development-yellow)
+![Learning Status](https://img.shields.io/badge/learning-react-orange)
 
-An ongoing personal playground of exercises, mini-projects, and experiments
-done while
-learning React.
+
+Ongoing sandbox of exercises and mini-projects done while learning React.
 
 ## Projects So Far 📌
 
@@ -14,7 +14,7 @@ learning React.
 | `01a-static-cocktail-curator` | Static version of a cocktail suggestion app                |
 | `01b-static-cocktail-curator` | Variation on the static cocktail suggestion page           |
 | `02-props-book-log`           | Book journal app to practice props and component structure |
-| `03-dynamic-drinks-oracle`    | Dynamic cocktail suggestion app                            |
+| `03-dynamic-drinks-oracle`    | Dynamic cocktail suggestion app (⚠️ in progress)                           |
 
 ## To Run a Project 🚀
 
@@ -46,6 +46,3 @@ under [CC Attribution License](https://creativecommons.org/licenses/by/4.0/) :
 - "Book SVG Vector"
   by [Dazzle Ui](https://dazzleui.gumroad.com/l/dazzleiconsfree?ref=svgrepo.com)
   via [SVG Repo](https://www.svgrepo.com/)
-
-### 03-dynamic-drinks-oracle 🍸
-
